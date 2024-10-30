@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class NotaPemesananRestoran {
+
+
     public static void main(String[] args) {
         // Daftar menu makanan
         String[] menu = {"Nasi Goreng", "Mie Goreng", "Ayam Goreng", "Sate Ayam"};
@@ -36,7 +38,9 @@ public class NotaPemesananRestoran {
         System.out.println("Harga per item  : Rp " + harga[pilihan - 1]);
         System.out.println("Jumlah pesanan  : " + jumlah);
         System.out.println("Total harga     : Rp " + totalHarga);
+        System.out.println("Terimakasih Sudah Membeli);
 
         input.close();
     }
+
 }
